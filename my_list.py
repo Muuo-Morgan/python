@@ -1,18 +1,17 @@
-# Empty list
+# Create an empty list
 my_list = []
 
-# Append elements 14, 24, 34, 44, 54
-my_list.append(14)
-my_list.append(24)
-my_list.append(34)
-my_list.append(44)
-my_list.append(54)
+# Append elements 10, 20, 30, 40
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-# Insert value 15 at the second position
+# Insert value 15 at the second position (index 1)
 my_list.insert(1, 15)
 
-# Extend with [52, 62, 74]
-my_list.extend([52, 62, 74])
+# Extend with [50, 60, 70]
+my_list.extend([50, 60, 70])
 
 # Remove the last element
 my_list.pop(7)
@@ -20,7 +19,9 @@ my_list.pop(7)
 # Sort the list in ascending order
 my_list.sort()
 
-# Step 7: Find and print the index of value 34
-index_of_34 = my_list.index(34)
+# Find and print the index of value 30
+index_of_30 = my_list.index(30)
 print("List:", my_list)
-print("Index of 34:", index_of_34)
+print("Index of 30:", index_of_30)
+
+print(my_list)
